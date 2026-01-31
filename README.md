@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# 桌面清理助手 (Desktop Cleaning Assistant)
 
-This contains everything you need to run your app locally.
+基于 Android 风格设计的智能桌面监控与机器人协作管理系统。
 
-View your app in AI Studio: https://ai.studio/apps/drive/1WAWbiMTICJdSS8MHFB41qlORB1nO6ivi
+## 🌟 最新特性
+- **深色模式 (Dark Mode)**: 支持根据系统偏好自动切换或手动切换亮/深色主题。
+- **Garden VLM 控制台**: 集成了对远程 Garden 大模型（基于 vLLM）的调用能力，支持实时图像识别与分析。
+- **响应式 UI**: 针对手机端优化的全屏交互体验。
 
-## Run Locally
+## 🛠️ 后端连接指南 (vLLM)
+如果你需要使用“分析”页面的 AI 推理功能，请在你的模型服务器上执行：
 
-**Prerequisites:**  Node.js
+```bash
+vllm serve /path/to/your/garden-model \
+    --host 0.0.0.0 \
+    --port 23328 \
+    --allowed-origins "*"
+```
 
+然后在 App 的“分析”页面设置中填写服务器的局域网 IP 地址。
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🚀 快速开始
+1. 安装依赖: `npm install`
+2. 启动开发服务器: `npm run dev`
+3. 构建项目: `npm run build`
