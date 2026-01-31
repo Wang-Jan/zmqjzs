@@ -1,6 +1,6 @@
 {
-  "name": "桌面清理助手 (Desktop Cleaning Assistant)",
-  "description": "智能桌面监控与机器人协作清理管理系统",
+  "name": "视净 (Shi Jing)",
+  "description": "桌面清洁助手",
   "requestFramePermissions": [
     "camera",
     "microphone"

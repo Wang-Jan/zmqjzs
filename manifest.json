@@ -1,7 +1,6 @@
-
 {
-  "short_name": "桌面清理",
-  "name": "桌面清理助手",
+  "short_name": "视净",
+  "name": "视净 - 桌面清洁助手",
   "id": "com.desktop.cleaner.app",
   "start_url": "./index.html",
   "scope": ".",

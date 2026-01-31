@@ -53,7 +53,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ isDark, onToggleTheme }) => (
   <header className="sticky top-0 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md z-40 border-b border-slate-100 dark:border-slate-900 px-4 pt-8 pb-3 flex justify-between items-center transition-colors">
-    <h1 className="text-xl font-extrabold text-slate-800 dark:text-slate-100 tracking-tight">桌面清理助手</h1>
+    <h1 className="text-xl font-extrabold text-slate-800 dark:text-slate-100 tracking-tight">视净</h1>
     <div className="flex gap-2">
       <button 
         onClick={onToggleTheme}
