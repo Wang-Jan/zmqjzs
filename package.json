@@ -1,9 +1,10 @@
 
 {
-  "name": "desktop-cleaning-assistant",
+  "name": "zmqjzs",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
+  "description": "基于 Android 风格的智能桌面监控与机器人协作管理系统 (Vercel Optimized)",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
