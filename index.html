@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
     
-    <!-- 仅保留 Tailwind CDN 供快速原型使用，或者交由 Vite 处理 -->
+    <!-- 使用 Tailwind CDN 快速渲染 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -65,7 +65,7 @@
 </head>
 <body>
     <div id="root"></div>
-    <!-- Vite 构建时的唯一入口点 -->
+    <!-- Vite 构建模式下唯一的脚本入口 -->
     <script type="module" src="./index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
 </body>
