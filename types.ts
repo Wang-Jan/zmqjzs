@@ -1,9 +1,8 @@
-
 export enum DeviceStatus {
   ONLINE = '在线',
   OFFLINE = '离线',
   WORKING = '工作中',
-  IDLE = '待命'
+  IDLE = '待命',
 }
 
 export interface Insight {

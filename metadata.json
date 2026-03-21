@@ -1,8 +1,5 @@
 {
   "name": "视净 (Shi Jing)",
   "description": "桌面清洁助手",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
+  "requestFramePermissions": ["camera", "microphone"]
 }
